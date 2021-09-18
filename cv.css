@@ -1,0 +1,295 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgba(100, 150, 90, 0.0);
+
+
+
+}
+
+:root{
+	scroll-behavior: smooth;
+}
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+
+header{
+	height: 100vh;
+	background-image: linear-gradient(to top,rgba(161,140,209,0.5),rgba(251,194,23,0.5)100% ),url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/04/programador-1921673.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.head{
+
+	color:white ;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column ;
+	box-shadow: snow 10px 10px 30px 0;
+
+}
+.head p{
+
+	text-align: center;
+}
+.menu{
+	position: fixed;
+	border-radius: 10px;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+
+}
+
+}
+#todo{
+	background-color: yellow;
+	
+	
+
+}
+
+#todo img{
+	width: 40%;
+	
+
+
+}
+p{
+	width: 45%;
+	
+}
+.subtitulo{
+	font-family: algerian;
+	text-shadow: black 1px 1px 4px;
+	text-decoration: underline 2px black;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 40px;
+	color: 200, 92, 131 ;
+	 margin-top: 30px;
+}
+.contenido{
+	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.contenido img{
+	width: 40%;
+	border-radius: 15px;
+	border: 2px solid blue;
+	animation: rotarColor infinite 2s;
+}
+@keyframes rotarColor{
+	from{
+	filter: hue-rotate(0deg)
+}
+
+	to{
+		filter: hue-rotate(360deg);
+	}
+}
+
+.contenido section{
+	width: 40%;
+
+}
+.soy{
+	
+		font-family: sans-serif;
+		font-size: 20px;
+		font-style: italic;
+		color: black;
+		text-shadow: black 0 0 2px 0;
+		text-align: center;
+	
+
+}
+
+.imagenes{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background-color: rgba( 0, 0, 0, 3.1);
+
+	border-radius: 20px;
+	border: blue solid 2px;
+
+}
+.imagenes img{
+
+	width: 10%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+}
+.Skills{
+	font-family: algerian;
+	text-shadow: black 1px 1px 4px;
+	text-decoration: underline 2px black;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 40px;
+	color: 200, 92, 131 ;
+	margin-top: 40px;
+}
+.contenedor-objetivos p{
+
+		padding: 10px;
+		font-family: sans-serif;
+		font-size: 20px;
+		font-style: italic;
+		color: black;
+		text-shadow: black 0 0 2px 0;
+		text-align: center;
+
+}
+.contenedor-objetivos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contacto{
+
+	font-family: algerian;
+	text-shadow: black 1px 1px 4px;
+	text-decoration: underline 2px black;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+	
+	color: 200, 92, 131 ;
+	margin-top: 40px;
+
+
+}
+
+.contenedor-contacto{
+
+	
+	margin: 30px;
+	padding: 0;
+	border: none;
+	background-color: rgba(100, 150, 90, 0.5);
+	
+	
+	
+	
+
+			
+
+}
+.social{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	
+	
+}
+
+
+.contenedor-social{
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	
+
+}
+.contenedor-contacto:hover{
+
+	background-color: rgba(100, 150, 90, 0.9);
+	cursor: pointer;
+	border-radius: 40px;
+	border: 2px solid blue;
+
+
+		
+}
+@media screen and (max-width: 500px){
+
+	.contenido img{
+	width: 80%;
+	border-radius: 15px;
+	border: 2px solid blue;
+}
+	.contenido{
+		
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.soy{
+		margin: 30px;
+		background-color: rgba(0, 0, 0, 0.3);
+
+		
+	}
+	*{
+		font-family: cursive;
+	}
+
+	.head{
+
+	color:white ;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column ;
+	box-shadow: snow 10px 10px 30px 0;
+}
+	.contenido section{
+		margin: 10px;
+		width: 100%;
+		color: white;
+
+	}	
+	.contenedor-objetivos{
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 0;
+		margin: 0px;
+		width: 100%;
+	
+	}
+	.contenedor-objetivos p{
+		color: white;
+		width: 100%;
+	}
+	header{
+		height: 100vh;
+	}
+
+	main{
+		background-image: url("https://besthqwallpapers.com/Uploads/4-5-2020/131705/thumb2-gray-abstraction-background-gray-background-with-gold-lines-black-background-luxury-backgrounds.jpg");
+	}
+	.Skills{
+		color: white;
+	}
+
+	.contacto{
+		color: white;
+	}
+	.subtitulo{
+		color: white;
+	}
+
+}
+
